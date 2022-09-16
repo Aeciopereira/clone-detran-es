@@ -1,0 +1,142 @@
+body {
+
+    margin-top: 0px;
+    margin: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fcfafb;
+    border-radius: 15px;
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(51, 97, 97);
+    border-radius: 5px;
+}
+
+.header1 ul {
+    position: initial;
+    height: 0px;
+    font-size: 14px;
+    background-color: #E6E6E6
+}
+
+.header1 li {
+    list-style: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    left: 720px
+}
+
+.header1 a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0.3em;
+    color: black;
+}
+
+.cabecalho {
+    background-color: #0582B8;
+    height: 149px;
+    width: 1597px;
+    margin-left: 363;
+}
+
+.logo-DETRAN {
+    top: 150px;
+    position: relative;
+
+
+}
+
+.brasao {
+    margin-top: -88px;
+    left: 983px;
+    position: absolute;
+}
+
+.midias-social {
+    background-color: #1f4796;
+    height: 58px;
+    width: 1130px;
+    margin-left: 499px;
+    margin-Top: 54px;
+    border-left: 25px solid #0000;
+    border-bottom: 25px solid #ffffff78;
+}
+
+ul li a img {
+    display: inline;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1.6rem;
+    height: 1.6rem;
+    text-align: center;
+    line-height: 41px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+li a :hover {
+    background-color: 2s #dee2e4;
+    -webkit-transform: 2s;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    left: 583px;
+    top: 148px;
+    list-style: none;
+}
+
+input {
+    position: absolute;
+    left: 800px;
+    height: 46px;
+    width: 273px;
+    top: 150px;
+}
+
+.galery {
+    width: 640px;
+    height: 345px;
+    position: absolute;
+    margin-top: 121px;
+    left: 435px;
+    overflow: hidden;
+    border: 1px solid #c0cbcf
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+    height: 343.8px;
+}
+
+.principal {
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.link-s ul {
+
+    position: relative;
+    display: table-caption;
+    top: 259px;
+    left: 202px;
+
+}
